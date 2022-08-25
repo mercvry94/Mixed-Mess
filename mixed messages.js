@@ -2,4 +2,4 @@ let players = ['Messi', 'Ronaldo', 'Neymar', 'Mbappe', 'Lewandowski', 'Dembele',
 
 let randomPlayer = players[Math.floor(Math.random() * players.length)];
 
-document.body.innerHTML = console.log(`${randomPlayer} loves the game of football`);
+document.body.innerHTML = "`${randomPlayer} loves the game of football`"
